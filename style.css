@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+/* Ajustes para área de texto */
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px; /* Aumenta el tamaño del texto */
+    padding: 10px; /* Agrega espaciado interno */
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho */
+}
+
+/* Ajustes para los campos numéricos */
+input[type="number"] {
+    width: 100%;
+    font-size: 18px; /* Aumenta el tamaño del texto */
+    padding: 10px; /* Agrega espaciado interno */
+    margin-bottom: 10px; /* Espaciado entre los campos */
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho */
+}
+
+/* Ajustes para el botón */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Ajuste de tamaño de fuente */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de grupos */
+#groupsContainer {
+    margin-top: 20px;
+}
+
+.group {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste para etiquetas */
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.25rem; 
+}

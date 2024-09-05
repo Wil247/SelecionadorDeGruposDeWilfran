@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formación de Grupos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Formación de Grupos</h1>
+    <h2>Selecciona cantidad de presidentes y coordinadores que desees</h2>
+    
+    <textarea id="studentsInput" rows="10" placeholder="Ingresa los estudiantes y sus notas (ej. 'Luis Migue 40, Maria José 85')"></textarea>
+    
+    <label for="numberOfGroups">Número de grupos a formar:</label>
+    <input type="number" id="numberOfGroups" min="1" placeholder="Ej. 3">
+
+    <label for="numberOfCoordinators">Número de coordinadores por grupo:</label>
+    <input type="number" id="numberOfCoordinators" min="1" placeholder="Ej. 2">
+
+    <button id="formGroups">Formar Grupos</button>
+
+    <div id="groupsContainer"></div>
+
+    <script src="script.js"></script>
+
+    <div class="footer">
+        Creado por el Prof. Wilfran L Decena
+    </div>
+
+</body>
+</html>
